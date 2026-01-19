@@ -3,9 +3,23 @@
 This repository contains our submission for Laboratory Activity#3: Working with Sensors
 
 ## Table of Contents
-1. [Files Description](#files)
-2. [Generative AI](#ai)
-3. [Grades](#grades)
+1. [Description](#description)
+2. [Files Description](#files)
+3. [Generative AI](#ai)
+4. [Grades](#grades)
+
+## Description
+A multi-sensor monitoring system that simulates fire detection logic.
+
+- Components: Thermistor (Pin A0), Photoresistor/LDR (Pin A2), Buzzer/LED Alert (Pin 12).
+
+- Logic:
+
+  - Reads analog data from the thermistor and converts voltage to temperature (Celsius) using the Steinhart-Hart equation.
+
+  - Reads light intensity from the LDR.
+
+  - Trigger Condition: If both temperature (>50°C) and light intensity (>220) exceed defined thresholds, the system enters an alert state, toggling the buzzer and LED at frequencies dependent on the heat intensity.
 
 ## Files
 1. Arduino Code Sketch File (*.ino)

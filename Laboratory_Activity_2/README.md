@@ -3,9 +3,15 @@
 This repository contains our submission for Laboratory Activity#2: Working with Digital Signals
 
 ## Table of Contents
-1. [Files Description](#files)
-2. [Generative AI](#ai)
-3. [Grades](#grades)
+1. [Description](#description)
+2. [Files Description](#files)
+3. [Generative AI](#ai)
+4. [Grades](#grades)
+
+## Description
+This project explores Pulse Width Modulation (PWM) to simulate analog output on digital pins.
+- Components: 5 LEDs.
+- Logic: Designed for the Arduino R4 (which supports PWM on all digital pins), this code creates a "breathing" or fading effect. It maps a step value (0-100) to a byte value (0-255) using analogWrite(), smoothly increasing and decreasing the brightness of each LED in sequence.
 
 ## Files
 1. Arduino Code Sketch File (*.ino)

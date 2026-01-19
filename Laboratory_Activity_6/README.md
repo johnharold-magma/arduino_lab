@@ -3,9 +3,21 @@
 This repository contains our submission for Laboratory Activity#6: Bidirectional Control using Arduino and Python
 
 ## Table of Contents
-1. [Files Description](#files)
-2. [Generative AI](#ai)
-3. [Grades](#grades)
+1. [Description](#description)
+2. [Files Description](#files)
+3. [Generative AI](#ai)
+4. [Grades](#grades)
+
+## Description
+This system establishes a two-way handshake between the microcontroller and a Python script.
+
+- Components: RGB LED (Pins 5, 6, 7), 3 Push Buttons (Pins 10, 11, 12).
+
+- Logic:
+
+    - Inbound (Python to Arduino): Python sends numeric commands ('1', '2', '3') to toggle the respective LEDs on the Arduino.
+
+    - Outbound (Arduino to Python): Pressing physical buttons on the Arduino sends character signals ('R', 'G', 'B') to Python. Python detects these signals and echoes back a command to toggle the corresponding LED, confirming the loop.
 
 ## Files
 1. Arduino Code Sketch File (*.ino)

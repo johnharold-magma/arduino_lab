@@ -3,9 +3,17 @@
 This repository contains our submission for Laboratory Activity #4: Arduino Serial Connection
 
 ## Table of Contents
-1. [Files Description](#files)
-2. [Generative AI](#ai)
-3. [Grades](#grades)
+1. [Description](#description)
+2. [Files Description](#files)
+3. [Generative AI](#ai)
+4. [Grades](#grades)
+
+## Description
+This activity introduces serial communication as a control mechanism for hardware behaviors.
+
+- Components: Photoresistor (Pin A2), LED (Pin 8).
+
+- Logic: The system monitors light levels. If the LDR reading crosses a threshold, the LED begins to blink using non-blocking timing (millis()). The system listens for the string command "stop" via the Serial Monitor to interrupt and reset the blinking state.
 
 ## Files
 1. Arduino Code Sketch File (*.ino)

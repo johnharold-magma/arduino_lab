@@ -3,9 +3,21 @@
 This repository contains our submission for Laboratory Activity#5: Receiving Serial Connection using Arduino from Python
 
 ## Table of Contents
-1. [Files Description](#files)
-2. [Generative AI](#ai)
-3. [Grades](#grades)
+1. [Description](#description)
+2. [Files Description](#files)
+3. [Generative AI](#ai)
+4. [Grades](#grades)
+
+## Description
+A modular project demonstrating how to control Arduino hardware using an external Python script.
+
+- Components: RGB LED (Red: 8, Green: 9, Blue: 10).
+
+- Logic:
+
+    - Arduino: Uses a header file (led_control.h) to encapsulate LED logic. It parses single characters ('R', 'G', 'B', 'A', 'O') to toggle specific colors or control all LEDs simultaneously.
+
+    - Python: A CLI (Command Line Interface) script uses the serial library to establish a connection and send user commands to the microcontroller.
 
 ## Files
 1. Arduino Code Sketch File (*.ino)

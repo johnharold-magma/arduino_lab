@@ -3,9 +3,21 @@
 This repository contains our submission for Laboratory Activity#6: Bidirectional Control using Arduino and Python
 
 ## Table of Contents
-1. [Files Description](#files)
-2. [Generative AI](#ai)
-3. [Grades](#grades)
+1. [Description](#description)
+2. [Files Description](#files)
+3. [Generative AI](#ai)
+4. [Grades](#grades)
+
+## Description
+An IoT prototype allowing hardware control via a web API.
+
+- Components: RGB LED (Pins 5, 6, 7), Push Buttons (Pins 10, 11, 12).
+
+- Logic:
+
+    - Arduino: Listens for serial commands to control LEDs and reports button presses back to the serial port.
+
+    - Python (FastAPI): Exposes HTTP endpoints (e.g., GET /led/red). When an API request is received, the Python backend forwards the instruction to the Arduino via serial. This allows the hardware to be controlled by a web browser or external software (e.g., Postman).
 
 ## Files
 1. Arduino Code Sketch File (*.ino)

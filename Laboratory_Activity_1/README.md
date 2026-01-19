@@ -3,9 +3,15 @@
 This repository contains our submission for Laboratory Activity#1: Working with Digital Signals
 
 ## Table of Contents
-1. [Files Description](#files)
-2. [Generative AI](#ai)
-3. [Grades](#grades)
+1. [Description](#description)
+2. [Files Description](#files)
+3. [Generative AI](#ai)
+4. [Grades](#grades)
+
+## Description
+This activity demonstrates the fundamental control of digital output pins.
+- Components: 5 LEDs (connected to pins 8, 9, 10, 11, 12).
+- Logic: The system utilizes arrays to manage pin indices. The loop function executes two sequential for loops: the first turns the LEDs on sequentially with a 1-second delay, and the second turns them off in the same order.
 
 ## Files
 1. Arduino Code Sketch File (*.ino)
