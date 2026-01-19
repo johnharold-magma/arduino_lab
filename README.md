@@ -64,6 +64,6 @@ The primary goal of this repository is to demonstrate proficiency in embedded sy
 
     - Wiring: Ensure components are wired according to the pin definitions at the top of each .ino file.
 
-        - Port Configuration: When using Python scripts, update the SERIAL_PORT variable (e.g., COM3, /dev/ttyUSB0) to match your connected Arduino device.
+    - Port Configuration: When using Python scripts, update the SERIAL_PORT variable (e.g., COM3, /dev/ttyUSB0) to match your connected Arduino device.
 
-        - Baud Rate: Ensure the Serial Monitor and Python scripts are set to 9600 baud (unless specified otherwise in the code).
+    - Baud Rate: Ensure the Serial Monitor and Python scripts are set to 9600 baud (unless specified otherwise in the code).
