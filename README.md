@@ -20,8 +20,6 @@ The primary goal of this repository is to demonstrate proficiency in embedded sy
 - [Midterm Exam](https://github.com/Hexizen/arduino_lab/tree/main/Laboratory_Exams/Midterm)
 - [Finals Exam](https://github.com/Hexizen/arduino_lab/tree/main/Laboratory_Exams/Finals)
 
-# Laboratory submissions include the following
-
 ### Files
 
 1. Arduino Code Sketch File (*.ino)
@@ -62,10 +60,10 @@ The primary goal of this repository is to demonstrate proficiency in embedded sy
 
     - requests: For the IoT client (pip install requests).
 
-Setup Instructions
+- Setup Instructions
 
-- Wiring: Ensure components are wired according to the pin definitions at the top of each .ino file.
+    - Wiring: Ensure components are wired according to the pin definitions at the top of each .ino file.
 
-    - Port Configuration: When using Python scripts, update the SERIAL_PORT variable (e.g., COM3, /dev/ttyUSB0) to match your connected Arduino device.
+        - Port Configuration: When using Python scripts, update the SERIAL_PORT variable (e.g., COM3, /dev/ttyUSB0) to match your connected Arduino device.
 
-    - Baud Rate: Ensure the Serial Monitor and Python scripts are set to 9600 baud (unless specified otherwise in the code).
+        - Baud Rate: Ensure the Serial Monitor and Python scripts are set to 9600 baud (unless specified otherwise in the code).
