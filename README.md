@@ -16,7 +16,7 @@ The primary goal of this repository is to demonstrate proficiency in embedded sy
 5. [Laboratory Activity#5: Receiving Serial Connection using Arduino from Python](https://github.com/Hexizen/arduino_lab/tree/main/Laboratory_Activity_5)
 6. [Laboratory Activity#6: Bidirectional Control using Arduino and Python](https://github.com/Hexizen/arduino_lab/tree/main/Laboratory_Activity_6)
 7. [Laboratory Activity#7: Controllling Arduino using FastAPI](https://github.com/Hexizen/arduino_lab/tree/main/Laboratory_Activity_7)
-8. Laboratory Exams
+8. [Laboratory Exams](https://github.com/johnharold-magma/arduino_lab/tree/main/Laboratory_Exams)
 - [Midterm Exam](https://github.com/Hexizen/arduino_lab/tree/main/Laboratory_Exams/Midterm)
 - [Finals Exam](https://github.com/Hexizen/arduino_lab/tree/main/Laboratory_Exams/Finals)
 
